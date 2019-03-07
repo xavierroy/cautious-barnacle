@@ -23,6 +23,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
 [taxonomies]
   tag = "tags"
+  audience = "audiences"
   # Categories are disabled by default.
 
 [params]
@@ -48,6 +49,18 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   # Add custom css
   # customCSS = ["css/foo.css", "css/bar.css"]
+
+  [mediaTypes]
+  [mediaTypes."application/atom"]
+  suffix = "xml"
+
+  [outputFormats.Atom]
+  mediaType = "application/atom"
+  baseName = "index"
+  isPlainText = false
+
+  [outputs]
+   home = [ "HTML", "Atom" ]
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
