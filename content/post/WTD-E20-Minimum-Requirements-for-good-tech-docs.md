@@ -6,7 +6,7 @@ extlink: "https://podcast.writethedocs.org/2019/03/02/episode-20-standards-for-d
 audiences: ["writers", "marketing"]
 categories: ["Podcasts"]
 tags : ["tools", "patterns" ]
-twitlink:
+twitlink: https://twitter.com/PaperArrow/status/1103932838401826816
 ---
 In episode 20, Matt Reiner from K15t joins us to talk about minimum standards for documentation — what techniques or standards can you put in place to help engineers and other contributors meet the minimum requirement for good tech docs? What essential sections, headings, or topics should you include in templates? And how do you help non-native speakers with grammar issues? We also discuss how tech writers can work with marketing to create honest and interesting writing. There seems to be the feeling that tech writing is dull but accurate and marketing copy is flashy and fluffy — we brainstorm ways technical writers can better align with marketing writers.
 

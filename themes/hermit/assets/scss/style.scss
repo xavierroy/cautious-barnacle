@@ -620,6 +620,15 @@ hr.post-end {
       content: "#"
     }
   }
+
+
+    .audience {
+      margin-right: .5em;
+
+      &::before {
+        content: "👤"
+      }
+    }
 }
 
 #toc {

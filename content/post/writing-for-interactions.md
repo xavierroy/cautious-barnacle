@@ -5,6 +5,7 @@ extlink: "https://uxdesign.cc/how-to-write-for-interactions-3ff03080fb18"
 type: "bookmark"
 audiences: ["writers", "UXers"]
 categories: ["TechComm", "UX", "Interaction Design"]
+tags : []
 twitlink: https://twitter.com/PaperArrow/status/1100722165471559682
 
 ---
