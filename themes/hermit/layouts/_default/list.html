@@ -15,17 +15,19 @@
 			<div class="post-year">{{ .Key }}</div>
 			<ul class="posts-list">
 				{{- range .Pages }}
-				<li class="post-item">
+				<li class="post-item h-entry">
 					<a href="{{.Permalink}}">
-						<span class="post-title">{{.Title}}</span>
-						<span class="post-day">{{ .Date.Format .Site.Params.dateformShort }}</span>
+						<span class="post-title p-name">{{.Title}}</span>
+						<span class="post-day dt-published">{{ .Date.Format .Site.Params.dateformShort }}</span>
 					</a>
 				</li>
 				{{- end }}
 			</ul>
 		</div>
 		{{- end }}
+
 	</main>
+
 {{ end }}
 
 {{ define "footer" }}
