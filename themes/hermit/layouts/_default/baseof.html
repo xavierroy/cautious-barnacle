@@ -21,9 +21,6 @@
 	{{- range .Site.Params.customCSS }}
 	<link rel="stylesheet" href="{{ . | absURL }}">
 	{{- end }}
-	{{- range .Site.Params.customJSS }}
-	<script src="{{ . | absURL }}">
-	{{- end }}
 	{{- if templates.Exists "partials/extra-head.html" -}}
 	{{ partial "extra-head.html" . }}
 	{{- end }}
