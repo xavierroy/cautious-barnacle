@@ -6,7 +6,7 @@ type: "bookmark"
 audiences: ["writers"]
 categories: ["Tools"]
 tags: ["screenshots", "tools"]
-twitlink: 
+twitlink: https://twitter.com/PaperArrow/status/1160844167624265728
 ---
 
 Record your screen right from the browser. No special software required.
