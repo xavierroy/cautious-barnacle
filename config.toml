@@ -2,11 +2,10 @@ baseURL = "/"
 languageCode = "en-us"
 title = "PaperArrow"
 defaultContentLanguage = "en"
-theme = "hermit"
+theme = ["hermit", "reveal-hugo"]
 enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
-# hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
@@ -36,7 +35,6 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # description = ""
   # images = [""]
   themeColor = "#494f5c"
-
   homeSubtitle = "Notes and thoughts"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
@@ -49,21 +47,6 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   # Add custom css
   # customCSS = ["css/foo.css", "css/bar.css"]
-
-  [mediaTypes]
-  [mediaTypes."application/atom"]
-  suffixes = ["xml"]
-
-  [outputFormats.Atom]
-  mediaType = "application/atom"
-  baseName = "index"
-  isPlainText = false
-
-  [outputs]
-   home = [ "HTML", "Atom" ]
-
-  # Social Icons
-  # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/paperarrow"
@@ -72,7 +55,6 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     url = "https://github.com/paperarrow"
 
 [menu]
-
   [[menu.main]]
     name = "Posts"
     url = "post/"
@@ -82,3 +64,25 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "About"
     url = "is/"
     weight = 20
+  [[menu.main]]
+    name= "Talks"
+    url = "talks/"
+    weight = 30
+
+
+  [mediaTypes]
+  [mediaTypes."application/atom"]
+  suffixes = ["xml"]
+
+[outputs]
+   home = [ "HTML", "Atom" ]
+
+  [outputFormats.Atom]
+  mediaType = "application/atom"
+  baseName = "index"
+  isPlainText = false
+ 
+ [outputFormats.Reveal]
+  baseName = "index"
+  mediaType = "text/html"
+  isHTML = true
