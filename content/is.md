@@ -3,7 +3,7 @@ title: about
 url: "/is/"
 description: ''
 tldr: What's the story behind the name?
-headerimg: https://images.unsplash.com/photo-1541580654-046afe2ec956
+images: ["/images/about_background.jpg"]
 credit: https://unsplash.com/photos/Sl7MHCbTxvo
 
 ---

@@ -2,7 +2,7 @@
 title: 'Invisible Formatting'
 date: "2019-02-12T11:58:22+05:30"
 type: bookmark
-headerimg: "https://imgs.xkcd.com/comics/invisible_formatting.png"
+images: ["https://imgs.xkcd.com/comics/invisible_formatting.png"]
 extlink: "https://xkcd.com/2109/"
 categories: ["Bookmarks"]
 tags: ["editing", "formatting"]
