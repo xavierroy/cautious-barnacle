@@ -46,7 +46,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   justifyContent = false  # Set "text-align: justify" to `.content`.
 
   # Add custom css
-  # customCSS = ["css/foo.css", "css/bar.css"]
+  customCSS = ["/css/icons.css"]
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/paperarrow"
