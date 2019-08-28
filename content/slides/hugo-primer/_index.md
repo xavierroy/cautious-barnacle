@@ -5,7 +5,7 @@ tags: ["presentations", "hugo", "stc-india"]
 audiences: ["writers"]
 url : "/slides/hugo-primer/"
 outputs: ["Reveal"]
-#reveal_hugo.theme : "moon"
+reveal_hugo.theme : "moon"
 reveal_hugo.highlight_theme : "solarized-dark"
 reveal_hugo.controls_layout : edges
 reveal_hugo.progress: true
@@ -16,7 +16,7 @@ reveal_hugo.hash : false
 reveal_hugo.loop : true
 reveal_hugo.templates.cover.transition: "zoom"
 reveal_hugo.templates.alternate.background-color: "darkslategray"
-reveal_hugo.custom_theme: "pikestreet.css"
+#reveal_hugo.custom_theme: "pikestreet.css"
 
 ---
 
