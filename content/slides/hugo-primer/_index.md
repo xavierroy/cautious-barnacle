@@ -1,23 +1,27 @@
 ---
-title : "Hugo Primer"
-date: 2019-08-15
-tags: ["presentations", "hugo", "stc-india"]
-audiences: ["writers"]
-url : "/slides/hugo-primer/"
-outputs: ["Reveal"]
-reveal_hugo.theme : "moon"
-reveal_hugo.highlight_theme : "solarized-dark"
-reveal_hugo.controls_layout : edges
+title: 'Hugo Primer'
+date: 2019-08-15T00:00:00.000Z
+tags:
+  - presentations
+  - hugo
+  - stc-india
+audiences:
+  - writers
+url: /slides/hugo-primer/
+outputs:
+  - Reveal
+reveal_hugo.theme: moon
+reveal_hugo.highlight_theme: solarized-dark
+reveal_hugo.controls_layout: edges
 reveal_hugo.progress: true
 reveal_hugo.slide_number: true
-reveal_hugo.touch : true
-reveal_hugo.center : true
-reveal_hugo.hash : false
-reveal_hugo.loop : true
-reveal_hugo.templates.cover.transition: "zoom"
-reveal_hugo.templates.alternate.background-color: "darkslategray"
-#reveal_hugo.custom_theme: "pikestreet.css"
-
+reveal_hugo.touch: true
+reveal_hugo.center: true
+reveal_hugo.hash: false
+reveal_hugo.loop: true
+reveal_hugo.templates.cover.transition: zoom
+reveal_hugo.templates.alternate.background-color: darkslategray
+reveal_hugo.custom_theme: "pikestreet.css"
 ---
 
 {{% section %}}
@@ -28,7 +32,7 @@ reveal_hugo.templates.alternate.background-color: "darkslategray"
 # Hugo Primer
 
 > STC India Chennai Regional Conference
->
+
 > August 31, 2019
 
 ---
@@ -172,11 +176,12 @@ You can find more SSGs at [StaticGen](https://www.staticgen.com/).
 {{% section %}}
 
 # 🏁
+
 ## Using Hugo to create a site
 
 ---
 
-## Install Hugo
+### Install Hugo
 
 ---
 
@@ -197,7 +202,7 @@ hugo help
 {{< slide id="create-site" template="cover" >}}
 
 
-## Create a Site
+### Create a Site
 
 ---
 * Create a new site where the docs will reside.
@@ -223,7 +228,7 @@ Hugo will now create a temporary site at
 ---
 {{< slide id="add-theme" template="cover" >}}
 
-# Add a theme
+### Add a theme
 
 ---
 
@@ -256,7 +261,7 @@ We will be using the **Whisper** theme.
 {{< slide id="configure-hugo" template="cover" >}}
 
 
-# Configure the site
+### Configure the site
 
 ---
 
@@ -264,7 +269,7 @@ Let's copy the entire contents of the **.\hugo-whisper-theme\exampleSite** folde
 of the Hugo site.
 
 ---
-## Edit config.toml
+#### Edit config.toml
 ```
 baseURL = "/" 
 title = "My Docs Site"
@@ -274,7 +279,7 @@ theme = "hugo-whisper-theme"
 ```
 ---
 
-## Test the site
+### Test the site
 
 Let's check how the site looks.
 
@@ -285,7 +290,7 @@ Hugo will now create a temporary site at http://locahost:1313.
 
 ---
 
-## Generate your site
+### Generate your site
 ```
 hugo
 ```
