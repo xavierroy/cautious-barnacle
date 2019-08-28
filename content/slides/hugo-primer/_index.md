@@ -21,7 +21,7 @@ reveal_hugo.hash: false
 reveal_hugo.loop: true
 reveal_hugo.templates.cover.transition: zoom
 reveal_hugo.templates.alternate.background-color: darkslategray
-reveal_hugo.custom_theme: "./pikestreet.css"
+
 ---
 
 {{% section %}}
