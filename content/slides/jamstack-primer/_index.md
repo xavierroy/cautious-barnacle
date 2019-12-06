@@ -1,5 +1,6 @@
 ---
 title : "JAMstack Primer"
+date: 2019-12-07
 outputs : ["Reveal"]
 tags: ["presentations", "jamstack", "stc-india"]
 audiences: ["writers"]
