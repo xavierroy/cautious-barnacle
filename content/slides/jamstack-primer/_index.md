@@ -3,7 +3,7 @@ title : "JAMstack Primer"
 outputs : ["Reveal"]
 tags: ["presentations", "jamstack", "stc-india"]
 audiences: ["writers"]
-reveal_hugo.theme: moon
+reveal_hugo.theme: beige
 reveal_hugo.controls_layout : edges
 reveal_hugo.progress: true
 reveal_hugo.slide_number: true

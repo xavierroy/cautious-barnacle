@@ -9,9 +9,13 @@ location: "Hilton, Chennai"
 #site: "http://radixday.in"
 slides: "/slides/jamstack-primer/"
 image: ""
-description: "i"
+description: "This was an unplanned ad hoc talk that was not presented."
 thumbnail: ""
 video: ""
 ---
 
-A quick presentation on JAMstack for the QuickBytes session.
+> This is a talk that I did not get a chance to present at the STC India 2019 Annual Conference. 
+
+This talk provides an introduction to the JAMstack architecture. This talk was planned to be presented as a 15/20 minute talk.
+
+I plan to expand this presentation for a future talk.
