@@ -1,6 +1,6 @@
 ---
 title: "STC Conference 2019"
-date: 2019-01-05T10:30:08+05:30
+date: 2019-12-07
 talkDate: December 06, 2019
 title: "An introduction to JAMstack"
 type: talk
@@ -9,7 +9,7 @@ location: "Hilton, Chennai"
 #site: "http://radixday.in"
 slides: "/slides/jamstack-primer/"
 image: ""
-description: "i"
+description: ""
 thumbnail: ""
 video: ""
 ---
