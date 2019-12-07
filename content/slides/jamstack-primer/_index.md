@@ -1,5 +1,6 @@
 ---
 title : "JAMstack Primer"
+date: 2019-12-07
 outputs : ["Reveal"]
 tags: ["presentations", "jamstack", "stc-india"]
 audiences: ["writers"]
@@ -9,7 +10,7 @@ reveal_hugo.progress: true
 reveal_hugo.slide_number: true
 reveal_hugo.touch : true
 reveal_hugo.center : true
-reveal_hugo.hash : false
+reveal_hugo.hash : true
 reveal_hugo.loop : true
 reveal_hugo.templates.cover.transition: zoom
 reveal_hugo.templates.alternate.background-color: darkslategray
