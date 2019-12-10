@@ -1,61 +1,63 @@
 /**
- * 'Creative' theme for reveal.js
- * Author: Sean O'Brien sean@webio.me, sean.obrien@yale.edu
- * 
- * License: AGPlv3 or later
+ * 'Genesys' theme for reveal.js.
  *
- * Based heavily upon 'Pike Street' by Felix Rieseberg, http://felixrieseberg.com
+ * Copyright (C) Genesys Telecom Labs
  */
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400');
-@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,600,600i,700,700i,900');
 
+/* roboto-100 - latin */
 @font-face {
-  font-family: 'EB Garamond';
-  font-weight: 400;
+  font-family: 'Roboto';
   font-style: normal;
- }
-
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'),
+       url('../fonts/roboto-v20-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v20-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-300 - latin */
 @font-face {
-  font-family: 'Muli';
-  font-weight: 400;
+  font-family: 'Roboto';
   font-style: normal;
- }
-
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'),
+       url('../fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-italic - latin */
 @font-face {
-  font-family: 'Muli';
-  font-weight: 400;
+  font-family: 'Roboto';
   font-style: italic;
- }
-
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'),
+       url('../fonts/roboto-v20-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v20-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-regular - latin */
 @font-face {
-  font-family: 'Muli';
-  font-weight: 600;
+  font-family: 'Roboto';
   font-style: normal;
- }
-
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin */
 @font-face {
-  font-family: 'Muli';
-  font-weight: 600;
-  font-style: italic;
- }
-
-@font-face {
-  font-family: 'Muli';
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+       url('../fonts/roboto-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-900 - latin */
+@font-face {
+  font-family: 'Roboto';
   font-style: normal;
- }
-
-@font-face {
-  font-family: 'Muli';
-  font-weight: 700;
-  font-style: italic;
- }
-
-@font-face {
-  font-family: 'Muli';
   font-weight: 900;
-  font-style: normal;
- }
+  src: local('Roboto Black'), local('Roboto-Black'),
+       url('../fonts/roboto-v20-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v20-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
@@ -66,32 +68,12 @@ section.has-light-background, section.has-light-background h1, section.has-light
   border: 0;
   box-shadow: none; }
 
-.reveal.creative a {
-  color:#FFFFC8;
-  text-decoration: none; }
-
-.reveal.creative a:hover, .reveal.creative a:active, {
-  color:#ee5b32;
+.reveal.genesys a {
   text-decoration: underline; }
 
-.reveal h1.alt, .reveal h2.alt {
-  font-family: 'Muli', 'Open Sans', 'Georgia', sans-serif;
-  font-weight: 700;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); }
-
-.reveal h2.alt {
-  font-family: 'Muli', 'Open Sans', 'Georgia', sans-serif;
-  font-weight: 600;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); }
-
-.reveal h3.alt, .reveal h4.alt {
-  font-family: 'Yale Design', 'EB Garamond', 'Times New Roman', serif;
-  font-weight: 400;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); }
-
-.reveal h5.alt, .reveal h6.alt {
-  font-family: 'Yale Design', 'EB Garamond', 'Times New Roman', serif;
-  font-weight: 400;
+.reveal h1.alt, .reveal h2.alt, .reveal h3.alt, .reveal h4.alt {
+  font-family: 'Roboto';
+  font-weight: bolder;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); }
 
 .reveal .accent h1 {
@@ -144,39 +126,23 @@ body > div > div.backgrounds > div.slide-background.present > video {
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #132e58;
-  background-color: #132e58; }
+  background: #FFF;
+  background-color: #FFF;
+font-size: 18px;
+}
+
+
 
 .reveal {
-  font-family: 'Muli', 'Open Sans', 'Georgia', sans-serif;
-  font-size: 38px;
+  font-family: 'Roboto','Segoe UI',  sans-serif;
+  font-size: 1.125em;
   font-weight: normal;
-  color: #fff; }
+  color: #000; 
 
-.reveal .center {
-  float: center; }
-
-.reveal .serif {
-  font-family: 'Yale Design', 'EB Garamond', 'Times New Roman', serif; }
-
-.reveal .sans {
-  font-family: 'Muli', 'Open Sans', 'Georgia', sans-serif; }
-
-.reveal .ti {
-  font-family: 'Yale Design', 'EB Garamond', 'Times New Roman', serif;
-  font-weight: 700;
-  letter-spacing: -0.05em; }
-
-.reveal .creative-logo {
-  font-family: 'Yale Design', 'EB Garamond', 'Times New Roman', serif;
-  font-weight: 400;
-  font-size: 1.4em;
-  margin-top: 8px;
-}
 
 ::selection {
   color: #fff;
-  background: white;
+  background: #959699;
   text-shadow: none; }
 
 .reveal .slides > section, .reveal .slides > section > section {
@@ -186,79 +152,79 @@ body {
 /*********************************************
  * HEADERS
  *********************************************/
-.reveal h1 {
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
   margin: 0 0 20px 0;
-  color: #fff;
-  font-family: 'Yale Design', 'EB Garamond', 'Times New Roman', serif;
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: normal;
-  text-transform: uppercase;
-  text-shadow: none;
-  word-wrap: break-word; }
-
-.reveal h2 {
-  margin: 0 0 20px 0;
-  color: #fff;
-  font-family: 'Yale Design', 'EB Garamond', 'Times New Roman', serif;
-  font-weight: 200;
-  line-height: 1.1;
-  letter-spacing: normal;
-  text-transform: none;
-  text-shadow: none;
-  word-wrap: break-word; }
-
-.reveal h3, .reveal h4 {
-  margin: 0 0 20px 0;
-  color: #fff;
-  font-family: 'Muli', 'Open Sans', 'Georgia', sans-serif;
-  font-weight: 600;
-  line-height: 1.4;
-  letter-spacing: normal;
-  text-transform: none;
-  text-shadow: none;
-  word-wrap: break-word; }
-
-.reveal h5, .reveal h6 {
-  margin: 0 0 20px 0;
-  color: #fff;
-  font-family: 'Muli', 'Open Sans', 'Georgia', sans-serif;
+  color: #FF4F1F;
+  font-family: 'Roboto', 'Segoe UI',  sans-serif;
   font-weight: 400;
-  line-height: 1.1;
+  line-height: 1.2;
   letter-spacing: normal;
   text-transform: none;
   text-shadow: none;
-  word-wrap: break-word; }
+  text-align: start;
+   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2,6em; }
+  font-size: 2.5em; 
+  font-weight: 400;
+  text-align: start;
+  display: block;
+  position: relative;
+  width: 80%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: bold;
+ /* background: rgba(78, 80, 84, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);*/
+
+}
 
 .reveal h2 {
-  font-size: 2.2em; }
+  font-size: 1.6em; }
 
 .reveal h3 {
-  font-size: 1.4em; }
+  font-size: 1.3em; }
 
 .reveal h4 {
-  font-size: 1.2em; }
+  font-size: 1em; }
 
 .reveal h1 {
   text-shadow: none; }
+
+  
+  .center h1, .center h2 {
+    text-align: center;
+
+  }
+  
+.cover blockquote, .end p{
+  color: white;
+}
+
+.cover h1 {
+  color: white;
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: bold;
+  text-align: left;
+  background: rgba(78, 80, 84, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
 
 /*********************************************
  * OTHER
  *********************************************/
 .reveal p {
-  font-family: 'Muli', 'Open Sans', 'Georgia', sans-serif;
-  font-weight: 400;
-  margin: 20px 0;
-  line-height: 1.3; }
+  margin: 10px 0;
+
+  line-height: 1.6; }
 
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img, .reveal video, .reveal iframe {
   max-width: 95%;
-  max-height: 95%;
-  overflow-x: hidden; }
+  max-height: 95%; }
 
 .reveal strong, .reveal b {
   font-weight: bold; }
@@ -267,16 +233,35 @@ body {
   font-style: italic; }
 
 .reveal ol, .reveal dl, .reveal ul {
-  display: inline-block;
+  display: block;
   text-align: left;
-  margin: 0 0 0 1em; }
+  margin: 0 0 0 1.5em; 
+  font-weight: 300;
+  
+}
 
 .reveal ol {
   list-style-type: decimal; }
 
-.reveal ul {
-  list-style-type: disc; }
+.reveal ul, .reveal dl {
+  list-style: none;
+  
+}
 
+.reveal ul li::before {
+  list-style-type: circle;
+  content: "\25E6";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #FF4F1F; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.reveal ul li{
+padding: 5px 0px;
+
+}
 .reveal ul ul {
   list-style-type: square; }
 
@@ -285,7 +270,7 @@ body {
 
 .reveal ul ul, .reveal ul ol, .reveal ol ol, .reveal ol ul {
   display: block;
-  margin-left: 40px; }
+  margin-left: 20px; }
 
 .reveal dt {
   font-weight: bold; }
@@ -298,13 +283,15 @@ body {
 
 .reveal blockquote {
   display: block;
-  position: relative;
-  width: 70%;
+  font-family: Roboto, 'Segoe UI', sans-serif;
+  font-weight: 200;
+  text-align: start;
+  width: 80%;
   margin: 20px auto;
-  padding: 5px;
+  padding: 5px;/*
   font-style: italic;
   background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); */}
 
 .reveal blockquote p:first-child, .reveal blockquote p:last-child {
   display: inline-block; }
@@ -358,59 +345,24 @@ body {
 .reveal small * {
   vertical-align: top; }
 
-.reveal .dark-border {
-  border: 1px solid #222; }
-
-.reveal .light-border {
-  border: 1px solid #fff; }
-
-.reveal .screenshot {
-  margin: 0; }
-
 /*********************************************
  * LINKS
  *********************************************/
 .reveal a {
-  color: #FFFFC8;
+  color: #FF4F1F;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
   transition: color 0.15s ease; }
 
 .reveal a:hover {
-  color: #ee5b32;
+  color: #FF4F1F;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
   background: #d9d9d9; }
-
-.reveal .yellow-text {
-  color: #FFFFC8; }
-
-.reveal .black-text {
-  color: #222; }
-
-.reveal a.black-text {
-  color: #222;
-  text-decoration: underline; }
-
-.reveal a.black-text:hover {
-  color: #ee5b32;
-  text-shadow: none;
-  border: none;
-  text-decoration: none; }
-
-.reveal a.white-hover:hover {
-  color: #fff;
-  text-shadow: none;
-  border: none; }
-
-.reveal a.black-hover:hover {
-  color: #222;
-  text-shadow: none;
-  border: none; }
 
 /*********************************************
  * IMAGES
@@ -435,16 +387,16 @@ body {
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
-  border-right-color: #fff; }
+  border-right-color: #4E5054; }
 
 .reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
-  border-left-color: #fff; }
+  border-left-color: #4E5054; }
 
 .reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #fff; }
+  border-bottom-color: #4E5054; }
 
 .reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
-  border-top-color: #fff; }
+  border-top-color: #4E5054; }
 
 .reveal .controls div.navigate-left.enabled:hover {
   border-right-color: #999999; }
@@ -475,3 +427,15 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #fff; }
+
+
+  .reveal section.side-by-side h1 {
+    position: absolute;
+  }
+  .reveal section.side-by-side h1:first-of-type {
+    left: 25%;
+  }
+  .reveal section.side-by-side h1:nth-of-type(2) {
+    right: 25%;
+  }
+
