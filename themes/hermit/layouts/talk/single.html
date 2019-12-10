@@ -36,8 +36,9 @@
 <svg class="feather">
   <use xlink:href="/icons/feather-sprite.svg#speaker"/>
 </svg>
-{{ .Params.event }}
+{{ delimit .Params.event ", " }}
 </p>
+
       <p><svg class="feather">
   <use xlink:href="/icons/feather-sprite.svg#map-pin"/>
 </svg> {{ .Params.location }}</p>
