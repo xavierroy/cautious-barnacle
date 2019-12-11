@@ -47,6 +47,9 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   # Add custom css
   customCSS = ["/css/icons.css"]
+   [[params.social]]
+    name = "telegram"
+    url = "https://t.me/paperarrow"
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/paperarrow"
