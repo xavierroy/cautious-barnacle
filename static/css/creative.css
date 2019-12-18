@@ -660,7 +660,7 @@
 
 
   <div class="application-main " data-commit-hovercards-enabled>
-        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+        <div itemscope itemtype="https://schema.org/SoftwareSourceCode" class="">
     <main  >
       
 
@@ -829,11 +829,11 @@
     
 <nav class="hx_reponav reponav js-repo-nav js-sidenav-container-pjax container-lg p-responsive d-none d-lg-block"
      itemscope
-     itemtype="http://schema.org/BreadcrumbList"
+     itemtype="https://schema.org/BreadcrumbList"
     aria-label="Repository"
      data-pjax="#js-repo-pjax-container">
 
-  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+  <span itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement">
     <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /seandiggity/reveal-creative" href="/seandiggity/reveal-creative">
       <div class="d-inline"><svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg></div>
       <span itemprop="name">Code</span>
@@ -841,7 +841,7 @@
 </a>  </span>
 
 
-  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+  <span itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement">
     <a data-hotkey="g p" data-skip-pjax="true" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /seandiggity/reveal-creative/pulls" href="/seandiggity/reveal-creative/pulls">
       <div class="d-inline"><svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0010 15a1.993 1.993 0 001-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v6.56A1.993 1.993 0 002 15a1.993 1.993 0 001-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg></div>
       <span itemprop="name">Pull requests</span>
@@ -849,7 +849,7 @@
       <meta itemprop="position" content="3">
 </a>  </span>
 
-    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement" class="position-relative float-left">
+    <span itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="position-relative float-left">
       <a data-hotkey="g w" data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="repo_actions /seandiggity/reveal-creative/actions" href="/seandiggity/reveal-creative/actions">
         <div class="d-inline"><svg class="octicon octicon-play" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 8A7 7 0 110 8a7 7 0 0114 0zm-8.223 3.482l4.599-3.066a.5.5 0 000-.832L5.777 4.518A.5.5 0 005 4.934v6.132a.5.5 0 00.777.416z"/></svg></div>
         Actions
@@ -877,23 +877,23 @@
   <div class="reponav-wrapper reponav-small d-lg-none">
   <nav class="reponav js-reponav text-center no-wrap"
        itemscope
-       itemtype="http://schema.org/BreadcrumbList">
+       itemtype="https://schema.org/BreadcrumbList">
 
-    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <span itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement">
       <a class="js-selected-navigation-item selected reponav-item" itemprop="url" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /seandiggity/reveal-creative" href="/seandiggity/reveal-creative">
         <span itemprop="name">Code</span>
         <meta itemprop="position" content="1">
 </a>    </span>
 
 
-    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <span itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement">
       <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /seandiggity/reveal-creative/pulls" href="/seandiggity/reveal-creative/pulls">
         <span itemprop="name">Pull requests</span>
         <span class="Counter">0</span>
         <meta itemprop="position" content="3">
 </a>    </span>
 
-      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <span itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement">
         <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /seandiggity/reveal-creative/projects" href="/seandiggity/reveal-creative/projects">
           <span itemprop="name">Projects</span>
           <span class="Counter">0</span>
@@ -1099,7 +1099,7 @@
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * Based heavily upon &#39;Pike Street&#39; by Felix Rieseberg, http://felixrieseberg.com</span></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * Based heavily upon &#39;Pike Street&#39; by Felix Rieseberg, https://felixrieseberg.com</span></td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
