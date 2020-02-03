@@ -6,7 +6,7 @@ type: "bookmark"
 audiences: ["writers"]
 categories: ["Tools"]
 tags: ["screenshots", "tools"]
-twitlink: 
+twitlink: https://twitter.com/PaperArrow/status/1224234168445362178
 ---
 
 Greenshot is a light-weight screenshot software tool for Windows with the following key features:
