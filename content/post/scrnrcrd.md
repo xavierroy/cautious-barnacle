@@ -9,4 +9,6 @@ tags: ["screenshots", "tools"]
 twitlink: https://twitter.com/PaperArrow/status/1160844167624265728
 ---
 
+> This site seems to be not available right now.
+
 Record your screen right from the browser. No special software required.
