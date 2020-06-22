@@ -1,7 +1,7 @@
 ---
 title: "about chatbots"
 date: 2020-06-22T11:02:51+05:30
-type: article
+type: post
 audiences: ["writers"]
 categories: ["TechComm"]
 tags : ["chatbots", "ai"]
