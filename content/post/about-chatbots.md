@@ -11,7 +11,7 @@ twitlink: https://twitter.com/PaperArrow/status/1274943212881244162
 
 > I wrote this post after a discussion on chatbots in one of the technical writing groups.  There was a poll asking people what they preferred: talking to a chatbot or a human. About 70 % stated that they preferred talking to an agent instead of a chatbot. I realised this was mostly due to a misconception on what chatbots can do. I thought it would make sense to consolidate my notes on what chatbots are and post them.
 
-A **chatbot** is a software that simulates a conversation with a user. This conversation can happen as _textually_ via messaging applications or websites or _orally_ via voicebots (chatbots that supports voice) or smart assistants.
+A **chatbot** is a software that simulates a conversation with a user. This conversation can happen  _textually_ via messaging applications or websites or _orally_ via voicebots (chatbots that supports voice) or smart assistants.
 
 Currently, there are two approaches to chatbots. One is the rules-based approach or the AI-based approach.
 
