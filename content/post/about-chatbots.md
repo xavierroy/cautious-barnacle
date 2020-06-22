@@ -19,8 +19,8 @@ In a _rules-based bot_, the conversation follows a predetermined path (known as 
 
 An _AI-based bot_ depends on various artificial intelligence techniques like Natural Language Processing (NLP) and Machine Learning (ML) to understand the user input and communicate accordingly. The bots can also learn over time and improve their responses. These bots can follow two different models: _retrieval-based_ model or _generative_ model.
 
-* A **retrieval-based** bot model use a repository of predefined responses and a heuristic to pick an appropriate response based on the input and context. The heuristic could be as simple as a rule-based expression match, or as complex as an ensemble of Machine Learning classifiers. These systems don’t generate any new text, they just pick a response from a fixed set. For example, a bot for a store that can respond to questions about opening hours or returns policy.
-* A **generative** bot model do not rely on pre-defined responses. They generate new responses from scratch. Generative models are typically based on Machine Translation techniques, but instead of translating from one language to another, we “translate” from an input to an output (response). Smart assistants like Google Assistant, Alexa and Siri fall under this category.
+* A **retrieval-based** bot model uses a repository of predefined responses and a heuristic to pick an appropriate response based on the input and context. The heuristic could be as simple as a rule-based expression match, or as complex as an ensemble of Machine Learning classifiers. These systems don’t generate any new text, they just pick a response from a fixed set. For example, a bot for a store that can respond to questions about opening hours or returns policy.
+* A **generative** bot model does not rely on pre-defined responses. They generate new responses from scratch. Generative models are typically based on Machine Translation techniques, but instead of translating from one language to another, we “translate” from an input to an output (response). Smart assistants like Google Assistant, Alexa and Siri fall under this category.
 
 
 
