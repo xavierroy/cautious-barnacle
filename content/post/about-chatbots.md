@@ -9,9 +9,9 @@ twitlink: https://twitter.com/PaperArrow/status/1274943212881244162
 ---
 
 
-> I wrote this post after a discussion on chatbots in one of the technical writing groups.  There was a poll asking people what they preferred: talking to a chatbot or a human. About 70 % stated that they preferred talking to an agent instead of a chatbot. I realised this was mostly due to a misconception on what chatbots can do. I thought it would make sense to consolidate my notes on what chat bots are and post them.
+> I wrote this post after a discussion on chatbots in one of the technical writing groups.  There was a poll asking people what they preferred: talking to a chatbot or a human. About 70 % stated that they preferred talking to an agent instead of a chatbot. I realised this was mostly due to a misconception on what chatbots can do. I thought it would make sense to consolidate my notes on what chatbots are and post them.
 
-A **chatbot** is a software that simulates a conversation with a user. This conversation can happen as a _textually_ via messaging applications or websites or _orally_ via voicebots (chatbots that supports voice) or smart assistants.
+A **chatbot** is a software that simulates a conversation with a user. This conversation can happen as _textually_ via messaging applications or websites or _orally_ via voicebots (chatbots that supports voice) or smart assistants.
 
 Currently, there are two approaches to chatbots. One is the rules-based approach or the AI-based approach.
 
@@ -19,8 +19,8 @@ In a _rules-based bot_, the conversation follows a predetermined path (known as 
 
 An _AI-based bot_ depends on various artificial intelligence techniques like Natural Language Processing (NLP) and Machine Learning (ML) to understand the user input and communicate accordingly. The bots can also learn over time and improve their responses. These bots can follow two different models: _retrieval-based_ model or _generative_ model.
 
-* A **retrieval-based** bot models use a repository of predefined responses and a heuristic to pick an appropriate response based on the input and context. The heuristic could be as simple as a rule-based expression match, or as complex as an ensemble of Machine Learning classifiers. These systems don’t generate any new text, they just pick a response from a fixed set. For example, a bot for a store that can respond to questions about opening hours or returns policy.
-* A **generative** bot models do not rely on pre-defined responses. They generate new responses from scratch. Generative models are typically based on Machine Translation techniques, but instead of translating from one language to another, we “translate” from an input to an output (response). Smart assistants like Google Assistant, Alexa and Siri fall under this category.
+* A **retrieval-based** bot model use a repository of predefined responses and a heuristic to pick an appropriate response based on the input and context. The heuristic could be as simple as a rule-based expression match, or as complex as an ensemble of Machine Learning classifiers. These systems don’t generate any new text, they just pick a response from a fixed set. For example, a bot for a store that can respond to questions about opening hours or returns policy.
+* A **generative** bot model do not rely on pre-defined responses. They generate new responses from scratch. Generative models are typically based on Machine Translation techniques, but instead of translating from one language to another, we “translate” from an input to an output (response). Smart assistants like Google Assistant, Alexa and Siri fall under this category.
 
 
 
