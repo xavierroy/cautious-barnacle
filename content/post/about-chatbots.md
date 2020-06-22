@@ -5,7 +5,7 @@ type: article
 audiences: ["writers"]
 categories: ["TechComm"]
 tags : ["chatbots", "ai"]
-twitlink: 
+twitlink: https://twitter.com/PaperArrow/status/1274943212881244162
 ---
 
 
