@@ -14,7 +14,7 @@ In my current role, we are expected to work on videos a lot and a part of the te
 As a writer, I wanted to improve my scripting skills. Getting the right words and the right cadence to those words is something I want to improve upon. And one improves by practice alone.
 
 
-So, I'm starting a podcast to serve as a testament to my learnings. Notes from the. Quiver will add on topics in Paper Arrow and also expand upon them.
+So, I'm starting a podcast to serve as a testament to my learnings. Notes from the Quiver will add on topics in Paper Arrow and also expand upon them.
 
 
 As a start, I made a trailer introducing the podcast and released it.
