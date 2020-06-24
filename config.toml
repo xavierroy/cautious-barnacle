@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "PaperArrow"
 defaultContentLanguage = "en"
 theme = ["hermit", "reveal-hugo"]
+
 enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
@@ -30,6 +31,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
+  showReadingTime = true
 
   # Metadata mostly used in document's head
   # description = ""
@@ -71,6 +73,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name= "Talks"
     url = "talks/"
     weight = 30
+  [[menu.main]]  
+    name= "Podcast"
+    url = "https://anchor.fm/notesfromthequiver/"
+    weight = 40
 
 
   [mediaTypes]
