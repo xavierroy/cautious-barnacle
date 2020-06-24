@@ -1,7 +1,6 @@
 ---
 title: "starting a podcast"
-date: 2020-06-24T03:30:50Z
-draft: true
+date: 2020-06-24
 type: post
 audiences: ["writers"]
 categories: ["TechComm"]
