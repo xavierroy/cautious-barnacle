@@ -5,8 +5,6 @@ tags: ["IA"]
 extlink: "https://www.howtomakesenseofanymess.com/"
 type: "bookmark"
 audiences: ["writers"]
-categories: ["Books"]
-
 ---
 
 
