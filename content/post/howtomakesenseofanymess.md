@@ -1,6 +1,6 @@
 ---
 title: "Read Online: How to Make Sense of Any Mess"
-date: 2020-06-24T14:46:02+05:30
+date: 2020-06-25T14:46:02+05:30
 tags: ["IA"]
 extlink: "https://www.howtomakesenseofanymess.com/"
 type: "bookmark"
