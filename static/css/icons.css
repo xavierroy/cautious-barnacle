@@ -7,3 +7,17 @@
     stroke-linejoin: round;
     fill: none;
 }
+
+.podcast {
+    width: 500px;
+    height: 500px;
+    background-image: url('/images/NotesfromtheQuiver.png');
+    background-size: cover;
+    position: relative;
+  }
+  
+  .podcast audio{
+    position: absolute;
+    bottom: 0;
+    width: 100%
+  }
