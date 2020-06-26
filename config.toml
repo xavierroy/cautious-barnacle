@@ -2,7 +2,7 @@ baseURL = "https://paperarrow.com"
 languageCode = "en-us"
 title = "PaperArrow"
 defaultContentLanguage = "en"
-theme = ["hermit", "reveal-hugo"]
+theme = ["hermit", "reveal-hugo" ]
 
 enableGitInfo = true
 pygmentsCodefences  = true
@@ -49,15 +49,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   # Add custom css
   customCSS = ["/css/icons.css"]
-   [[params.social]]
-    name = "telegram"
-    url = "https://t.me/paperarrow"
+
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/paperarrow"
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/paperarrow"
 
 [menu]
   [[menu.main]]
@@ -75,11 +70,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     weight = 30
   [[menu.main]]  
     name= "Podcast"
-    url = "https://anchor.fm/notesfromthequiver/"
+    url = "/podcast/"
     weight = 40
 
-
-  [mediaTypes]
+[mediaTypes]
   [mediaTypes."application/atom"]
   suffixes = ["xml"]
 
