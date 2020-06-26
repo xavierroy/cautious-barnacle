@@ -1,32 +1,27 @@
 ---
-title: 'Hugo Primer'
-date: 2019-08-15T00:00:00.000Z
-tags:
-  - presentations
-  - hugo
-  - stc-india
-audiences:
-  - writers
-url: /slides/hugo-primer/
-outputs:
-  - Reveal
-reveal_hugo.theme: moon
-reveal_hugo.highlight_theme: solarized-dark
-reveal_hugo.controls_layout: edges
-reveal_hugo.progress: true
-reveal_hugo.slide_number: true
-reveal_hugo.touch: true
-reveal_hugo.center: true
-reveal_hugo.hash: false
-reveal_hugo.loop: true
-reveal_hugo.templates.cover.transition: zoom
-reveal_hugo.templates.alternate.background-color: darkslategray
-reveal_hugo.custom_theme: "./css/pikestreet.css"
+title: "Hugo Primer"
+date: 2019-08-15
+outputs : ["Reveal"]
+tags: ["presentations", "hugo", "stc-india"]
+audiences: ["writers"]
+reveal_hugo:
+  theme: moon
+  highlight_theme: solarized-dark
+  slide_number: false
+  progress: true 
+  touch : true
+  center : true
+  hash : true
+  transition: slide
+  #controls_layout : edges
+  controls_tutorial: true
+  custom_theme : "./css/pikestreet.css"
+
 ---
 
-{{% section %}}
 
 {{< slide id="home" template="cover" >}}
+
 ![](./images/hugo.png)
 
 # Hugo Primer
@@ -36,6 +31,7 @@ reveal_hugo.custom_theme: "./css/pikestreet.css"
 > August 31, 2019
 
 ---
+
 {{< slide id="about" background="sienna" transition="zoom" >}}
 
 # I am Xavier.
@@ -43,6 +39,8 @@ reveal_hugo.custom_theme: "./css/pikestreet.css"
 I work at Genesys as a Staff Technical Writer.
 
 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#00acee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg> [@paperarrow](https://twitter.com/paperarrow)
+
+
 
 ---
 
@@ -52,12 +50,11 @@ I work at Genesys as a Staff Technical Writer.
 * An introduction to Hugo
 * A live walkthrough to create a documentation site
 
-{{% /section %}}
 
 ---
 
 {{< slide id="whatishugo" template="cover" >}}
-{{% section %}}
+
 # 😕
 # What is Hugo?
 
@@ -89,12 +86,11 @@ templates.</small>
 
 You can find more SSGs at [StaticGen](https://www.staticgen.com/).
 
-{{% /section %}}
 
 ---
 
 {{< slide id="uses-for-hugo" template="cover" >}}
-{{% section %}}
+
 
 # 🤔
 
@@ -144,36 +140,29 @@ You can find more SSGs at [StaticGen](https://www.staticgen.com/).
 
 ![](./images/apidoc_example.png)
 
-{{% /section %}}
+
 
 ---
 
 {{< slide id="users" template="cover" >}}
 
-{{% section %}}
 
 # 🧐 
 ## Who uses Hugo?
 
 ---
 
-{{% fragment class="fade-in" %}}Google {{% /fragment %}} 
+* Google
+* Kubernetes
+* ~~Docker~~  _switched to Jekyll recently_.
+* and many more companies for their docs...
 
-{{% fragment class="fade-in" %}}Kubernetes {{% /fragment %}}
-
-{{% fragment class="fade-in-then-out" %}} Docker {{% /fragment %}}
-
-{{% fragment class="fade-in-then-out" %}}Docker switched to Jekyll recently.{{% /fragment %}}
-
-{{% fragment class="fade-in" %}}and many more companies for their docs...{{% /fragment %}}
-
-{{% /section %}}
 
 ---
 
 {{< slide id="install-hugo" template="cover" >}}
 
-{{% section %}}
+
 
 # 🏁
 
@@ -299,7 +288,6 @@ The site will be now available at **public** folder for deployment.
 
 You can copy the contents to your website.
 
-{{% /section %}}
 
 ---
 
@@ -309,7 +297,6 @@ You can copy the contents to your website.
 
 ---
 
-{{%  section %}}
 
 {{< slide id="next" background-image="./images/future.gif" template="cover" >}}
 
@@ -335,7 +322,7 @@ Create a full-fledged documentation site with Hugo:
 > Workshop Details : TBD
 
 
-{{% /section %}}
+
 
 ---
 
