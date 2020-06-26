@@ -24,6 +24,12 @@
 	{{- if templates.Exists "partials/extra-head.html" -}}
 	{{ partial "extra-head.html" . }}
 	{{- end }}
+    <link
+      type="application/rss+xml"
+      rel="alternate"
+      title="Notes from the Quiver"
+      href="https://anchor.fm/s/27e50e30/podcast/rss"
+    />
 </head>
 
 <body id="page" class="h-feed">

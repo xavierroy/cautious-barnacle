@@ -1,0 +1,26 @@
+{{ $src := (.Params.podcast.mp3 | absURL) -}}
+{{ if .Site.Params.Podcast.cdn -}}
+{{ $src = add $.Site.Params.Podcast.cdn (.Params.podcast.mp3 | relURL) -}}
+{{ end -}}
+
+<figure class="podcast">
+<audio controls preload="{{ .Site.Params.Podcast.preload | default "metadata" }}">
+    <source src="{{ $src }}" type="audio/mpeg">
+</audio>
+</figure>
+<ul>
+    {{ if .Params.podcast.links.anchor -}}
+        <li><a href="{{ .Params.podcast.links.anchor }}" ><svg class="feather">
+            <use xlink:href="/icons/feather-sprite.svg#anchorfm"/> 
+          </svg> anchor.fm</a></li>
+    {{ end}}
+    {{ if .Params.podcast.links.spotify -}}
+        <li><a href="{{ .Params.podcast.links.spotify }}" ><svg class="feather">
+            <use xlink:href="/icons/feather-sprite.svg#spotify"/> 
+          </svg> spotify</a></li>
+    {{ end}}
+    {{ if .Params.podcast.links.googlepodcast -}}
+        <li><a href="{{ .Params.podcast.links.googlepodcast }}" >google podcast</a></li>
+    {{ end}}
+</ul>
+<hr />
