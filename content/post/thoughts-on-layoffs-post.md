@@ -11,10 +11,10 @@ twitlink:
 ---
 
 
-I read this essay by [Tom Johnson](https://idratherbewriting.com) recently. He was laid off about seven years back. Now after seven years, he reminiscences on the various factors that led to the layoff in a [six-part essay](https://idratherbewriting.com/blog/reflecting-seven-years-later-about-layoff-intro/). He had spoken to a few former colleagues on what they had been doing after theat incident. 
+I read this essay by [Tom Johnson](https://idratherbewriting.com) recently. He was laid off about seven years back. Now after seven years, he reminiscences on the various factors that led to the layoff in a [six-part essay](https://idratherbewriting.com/blog/reflecting-seven-years-later-about-layoff-intro/). He had spoken to a few former colleagues on what they had been doing after that incident. 
 
 
-His essay makes an interesting read with several good nuggets of information that is very useful regradless of which stage of their career they're in now.
+His essay makes an interesting read with several good nuggets of information that is very useful regardless of which stage of their career they're in now.
 
 
 > Disclaimer: Till date, I have not experienced a layoff in my career. So my thoughts here are from inexperience but also from my experience. This is also a lesson to my future self. 
