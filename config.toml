@@ -21,6 +21,9 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # noreferrerLinks = true
   # nofollowLinks = true
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [taxonomies]
   tag = "tags"
   audience = "audiences"

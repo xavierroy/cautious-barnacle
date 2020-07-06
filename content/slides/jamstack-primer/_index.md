@@ -1,28 +1,30 @@
 ---
-title : "JAMstack Primer"
+title: "JAMstack Primer"
 date: 2019-12-07
 outputs : ["Reveal"]
 tags: ["presentations", "jamstack", "stc-india"]
 audiences: ["writers"]
-reveal_hugo.theme: beige
-reveal_hugo.controls_layout : edges
-reveal_hugo.progress: true
-reveal_hugo.slide_number: true
-reveal_hugo.touch : true
-reveal_hugo.center : true
-reveal_hugo.hash : true
-reveal_hugo.loop : true
-reveal_hugo.templates.cover.transition: zoom
-reveal_hugo.templates.alternate.background-color: darkslategray
-reveal_hugo.custom_theme: "./css/pikestreet.css"
+reveal_hugo:
+  theme: beige
+  highlight_theme: solarized-dark
+  slide_number: true
+  progress: true 
+  touch : true
+  center : true
+  hash : true
+  transition: slide
+  controls_layout : edges
+  custom_theme : "./css/pikestreet.css"
+logo:
+  src : "../../images/logo.png"
+  alt : "Paper Arrow"
 ---
+
 {{< slide id="home" template="cover" >}}
 
-# What is JAMstack? 
+# What is JAMstack?
 
 ![](./images/jam-jars.jpg)
-
-
 
 
 
@@ -36,18 +38,18 @@ reveal_hugo.custom_theme: "./css/pikestreet.css"
 
 ---
 
-## 🇯 for JavaScript
+## **J**avaScript
 
 Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework like Vue.js, React, Angular, etc. or even vanilla JavaScript.
 
 ---
 
-## 🇦 for APIs
+## **A**PIs
 All server-side processes or database actions are abstracted into reusable APIs, accessed over HTTP with JavaScript. These can be custom-built or leverage third-party services.
 
 ---
 
-## 🇲 for Markup
+## **M**arkup
 Templated markup should be prebuilt at build time, usually using a site generator for content sites, or a build tool for web apps.
 
 

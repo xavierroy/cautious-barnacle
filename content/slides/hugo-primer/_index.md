@@ -16,7 +16,9 @@ reveal_hugo:
   #controls_layout : edges
   controls_tutorial: true
   custom_theme : "./css/pikestreet.css"
-
+logo:
+  src : "../../images/logo.png"
+  alt : "Paper Arrow"
 ---
 
 
