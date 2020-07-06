@@ -9,7 +9,7 @@ tags : ["metrics"]
 twitlink: 
 ---
 
-Recently someone in a Slack group had asked about metrics for technical writing. They was looking for metrics like tolerable errors per 1000 words.
+Recently someone in a Slack group had asked about metrics for technical writing. They were looking for metrics like tolerable errors per 1000 words.
 
 To me, that is absolutely a wrong metric to be tracking.  I could write a 1000 word article of absolute nonsense without any grammatical errors or typos. By that metrics, I'll the best writer you've ever seen.
 
@@ -21,7 +21,7 @@ One way of collecting metrics is not to go by the number of edits, rather by the
 
 Now if there were a few typos, you would just mark up the typos and categorize them as *avoidable* errors. Whereas if there were issues of wordiness, you would categorize it as a *language improvement* area. If there were incorrect technical information, flag it as a severe issue. 
 
-At the end of the review, you would have an understanding of the actual items to be taken care. By now, you can probably quantify the type of edits as a *proto-metric*. 
+At the end of the review, you would have an understanding of the actual items to be taken care of. By now, you can probably quantify the type of edits as a *proto-metric*. 
 
 Now repeat this exercise for several content pieces for the same author, you get an idea of what that author has to improve. 
 
