@@ -7,7 +7,7 @@ extlink: "https://idratherbewriting.com/blog/reflecting-seven-years-later-about-
 audiences: ["writers",]
 categories: ["TechComm"]
 tags : ["career", "advice"]
-twitlink: 
+twitlink: https://twitter.com/PaperArrow/status/1280366316424069120
 ---
 
 
