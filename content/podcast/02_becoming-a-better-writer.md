@@ -21,7 +21,7 @@ In this second episode, I try to answer a question that I get asked a lot from w
 *How do I become a better writer?*
 
 Books mentioned:
-* Buy [On Writing by Stephen King]( https://amzn.to/2CECw0q)
+* Buy [On Writing by Stephen King](https://amzn.to/2CECw0q)
 * Buy [Elements of Style by Strunk & White](https://amzn.to/2CKlLAQ)
 
 Quotes by Stephen King was taken by [ON WRITING: A MEMOIR OF THE CRAFT written and read by Stephen King](https://soundcloud.com/hodderbooks/on-writing-written-and-read-by-stephen-king-audiobook-extract). 
