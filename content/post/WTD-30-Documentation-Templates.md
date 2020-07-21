@@ -6,7 +6,7 @@ extlink: "https://podcast.writethedocs.org/2020/07/19/episode-30-documentation-t
 audiences: ["writers"]
 categories: ["Podcasts"]
 tags : ["templates", "google"]
-twitlink: 
+twitlink: https://twitter.com/PaperArrow/status/1285452071689318403
 ---
 
 Juan Lara was a former Genesys employee who left for Google a couple months after I joined Genesys. I took over a project from him as he switched jobs. 
