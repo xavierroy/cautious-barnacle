@@ -1,6 +1,6 @@
 ---
 title: 'JAMstack for Writers'
-date: 2020-09-12
+date: 2020-09-11
 tags:
   - presentations
 audiences:
