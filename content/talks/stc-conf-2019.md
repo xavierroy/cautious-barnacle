@@ -1,7 +1,7 @@
 ---
 date: 2019-12-07
 talkDate: December 07, 2019
-title: "An introduction to JAMstack"
+title: "A JAMstack primer"
 type: talk
 event: ["STC India Annual Conference 2019"]
 location: "Hilton, Chennai"

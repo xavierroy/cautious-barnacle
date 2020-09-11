@@ -1,7 +1,6 @@
 ---
 date: 2019-01-05T10:30:08+05:30
 talkDate: January 05, 2019
-talkDate: December 05, 2019
 title: "Authoring Enterprise Documentation using Open Source"
 type: talk
 event: ["radIX Day by Genesys","STC India Annual Conference 2019"]
