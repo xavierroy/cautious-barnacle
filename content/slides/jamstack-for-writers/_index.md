@@ -1,5 +1,6 @@
 ---
 title: 'JAMstack for Writers'
+date: 2020-09-12
 tags:
   - presentations
 audiences:
@@ -19,7 +20,7 @@ reveal_hugo:
   disableLayout: true
   transition: slide
   preview_links: false
-  custom_theme : "./css/lightning.css"
+  custom_theme : "./css/calycinal.css"
   templates:
     gen-br:
       class: brightred
