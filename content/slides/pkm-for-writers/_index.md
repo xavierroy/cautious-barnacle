@@ -234,21 +234,6 @@ How many sources of <highlight>knowledge</highlight> are you exposed to througho
 </div>
 
 
-
-<!--
-
-# Knowledge Frameworks
-
-- The Commonplace Book
-- Zettelkasten
-- IMF (Index, Maps, and Framework)
-- PARA (Projects, Areas, Resources, Archive)
-
----
-
-
---> 
-
 {{% /section %}} 
 
 ---
@@ -478,9 +463,6 @@ The notecards are linked with each other through wiki links.
 {{% /section %}}
 
 ---
-
-
-
 
 
 
