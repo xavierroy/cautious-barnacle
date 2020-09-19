@@ -253,7 +253,7 @@ How many sources of <highlight>knowledge</highlight> are you exposed to througho
 
 ---
 
-## what is TiddyWiki?
+## what is TiddlyWiki?
 
 TiddlyWiki is a powerful *non-linear* note-taking tool that helps you collect and structure any kind of information and work with it to get stuff done.
 
