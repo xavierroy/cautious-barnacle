@@ -1,8 +1,0 @@
-
-[submodule "themes/reveal-hugo"]
-	path = themes/reveal-hugo
-	url = https://github.com/dzello/reveal-hugo.git
-
-[submodule "themes/hugo-video"]
-	path = themes/hugo-video
-	url = https://github.com/martignoni/hugo-video.git
